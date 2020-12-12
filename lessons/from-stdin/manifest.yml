@@ -1,0 +1,12 @@
+type: binary
+input: >
+  {
+    "message": "welcome to jq adventure!"
+  }
+output: >
+  {
+    "message": "welcome to jq adventure!"
+  }
+scaffold:
+  - file: script.sh
+    contents: ""
